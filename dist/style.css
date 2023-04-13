@@ -1,0 +1,26 @@
+#canvas {
+  display: block;
+  margin: auto;
+  min-width: 1000px;
+  min-heihgt: 600px;
+}
+
+#title, #description {
+  text-align: center;
+}
+
+.tooltip 
+{	
+    position: absolute;
+    width: auto;
+    height: auto;					
+    padding: 15px 10px;			
+    font: 14px sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background: #202020;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;
+}
